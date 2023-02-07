@@ -283,6 +283,17 @@ nav button {
 @media only screen and (max-width:425px) {
     nav {
         padding: 0;
+        height: 115px;
+    }
+
+    nav a {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    nav .logo {
+        margin-right: 5px;
     }
     
     .products {
